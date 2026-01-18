@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Logs / temp
+*.log
+tmp/
+temp/
+
+# Web uploads/outputs (no subir)
+uploads/
+outputs/
+storage/
+jobs/
+*.db
+
+# Frontend build (si aplica)
+node_modules/
+dist/
