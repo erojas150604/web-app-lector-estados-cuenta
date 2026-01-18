@@ -45,6 +45,36 @@ El sistema funciona mediante:
 
 ---
 
+## Contenerización con Docker
+
+La aplicación fue preparada para ejecutarse en un entorno completamente contenedorizado utilizando Docker Desktop y Docker Compose.
+
+Esto permite:
+
+- Levantar backend y base de datos automáticamente  
+- Mantener dependencias aisladas  
+- Replicar fácilmente el entorno en cualquier máquina  
+- Simular un despliegue real de producción  
+
+---
+
+### Servicios levantados con Docker
+
+| Servicio | Función |
+|---------|---------|
+| API FastAPI | Procesamiento de PDFs y generación de Excel |
+| PostgreSQL | Almacenamiento de resultados y metadatos |
+| Storage Volume | Persistencia de archivos cargados |
+
+---
+
+### Ejecución local
+
+```bash
+docker compose up --build
+```
+
+
 ## Arquitectura del proyecto
 ```
 bank-statement-webapp/
