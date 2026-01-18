@@ -45,5 +45,3 @@ Las capturas fueron tomadas desde Swagger UI ejecutando el backend localmente co
 ---
 
 Carpeta incluida únicamente con fines de documentación visual del proyecto.
-```
-
